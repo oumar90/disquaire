@@ -1,1 +1,132 @@
-[{"model": "store.artist", "pk": 2, "fields": {"name": "Francis Cabrel"}}, {"model": "store.artist", "pk": 3, "fields": {"name": "Elijay"}}, {"model": "store.artist", "pk": 4, "fields": {"name": "Rosana"}}, {"model": "store.artist", "pk": 5, "fields": {"name": "Maria Dolores Pradera"}}, {"model": "store.contact", "pk": 7, "fields": {"email": "oudjira@yahoo.com", "name": "oumarou"}}, {"model": "store.album", "pk": 1, "fields": {"reference": null, "created_at": "2020-11-04T15:09:11.113Z", "available": false, "title": "Sarbacane", "picture": "", "artists": [2]}}, {"model": "store.album", "pk": 2, "fields": {"reference": null, "created_at": "2020-11-05T15:18:15.485Z", "available": false, "title": "JUMPIN' JACK FLASH", "picture": "", "artists": [5]}}, {"model": "store.album", "pk": 3, "fields": {"reference": null, "created_at": "2020-11-05T15:20:12.613Z", "available": false, "title": "THE HAPPENING", "picture": "", "artists": [2]}}, {"model": "store.album", "pk": 4, "fields": {"reference": null, "created_at": "2020-11-05T15:21:12.237Z", "available": false, "title": "98.6", "picture": "", "artists": [4]}}, {"model": "store.album", "pk": 5, "fields": {"reference": null, "created_at": "2020-11-05T15:22:03.534Z", "available": false, "title": "DONAVAN", "picture": "", "artists": [4]}}, {"model": "store.album", "pk": 6, "fields": {"reference": null, "created_at": "2020-11-05T15:22:47.366Z", "available": false, "title": "Lulu", "picture": "", "artists": [3]}}, {"model": "store.album", "pk": 7, "fields": {"reference": null, "created_at": "2020-11-05T15:23:28.214Z", "available": false, "title": "All over the world", "picture": "", "artists": [3]}}, {"model": "store.booking", "pk": 8, "fields": {"created_at": "2020-11-09T14:21:50.789Z", "contacted": false, "contact": 7, "album": 2}}]
+[
+    {
+        "model": "store.artist",
+        "pk": 2,
+        "fields": {
+            "name": "Francis Cabrel"
+        }
+    },
+    {
+        "model": "store.artist",
+        "pk": 3,
+        "fields": {
+            "name": "Elijay"
+        }
+    },
+    {
+        "model": "store.artist",
+        "pk": 4,
+        "fields": {
+            "name": "Rosana"
+        }
+    },
+    {
+        "model": "store.artist",
+        "pk": 5,
+        "fields": {
+            "name": "Maria Dolores Pradera"
+        }
+    },
+    {
+        "model": "store.contact",
+        "pk": 7,
+        "fields": {
+            "email": "oudjira@yahoo.com",
+            "name": "oumarou"
+        }
+    },
+    {
+        "model": "store.album",
+        "pk": 2,
+        "fields": {
+            "reference": null,
+            "created_at": "2020-11-05T15:18:15.485Z",
+            "available": false,
+            "title": "JUMPIN' JACK FLASH",
+            "picture": "",
+            "artists": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "store.album",
+        "pk": 3,
+        "fields": {
+            "reference": null,
+            "created_at": "2020-11-05T15:20:12.613Z",
+            "available": false,
+            "title": "THE HAPPENING",
+            "picture": "",
+            "artists": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "store.album",
+        "pk": 4,
+        "fields": {
+            "reference": null,
+            "created_at": "2020-11-05T15:21:12.237Z",
+            "available": false,
+            "title": "98.6",
+            "picture": "",
+            "artists": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "store.album",
+        "pk": 5,
+        "fields": {
+            "reference": null,
+            "created_at": "2020-11-05T15:22:03.534Z",
+            "available": false,
+            "title": "DONAVAN",
+            "picture": "",
+            "artists": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "store.album",
+        "pk": 6,
+        "fields": {
+            "reference": null,
+            "created_at": "2020-11-05T15:22:47.366Z",
+            "available": false,
+            "title": "Lulu",
+            "picture": "",
+            "artists": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "store.album",
+        "pk": 7,
+        "fields": {
+            "reference": null,
+            "created_at": "2020-11-05T15:23:28.214Z",
+            "available": false,
+            "title": "All over the world",
+            "picture": "",
+            "artists": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "store.booking",
+        "pk": 8,
+        "fields": {
+            "created_at": "2020-11-09T14:21:50.789Z",
+            "contacted": false,
+            "contact": 7,
+            "album": 2
+        }
+    }
+]
