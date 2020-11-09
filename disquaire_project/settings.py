@@ -30,7 +30,7 @@ if os.environ.get("ENV") == "PRODUCTION":
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['disquaire.herokuapp.com']
+ALLOWED_HOSTS = ['odisquaire.herokuapp.com']
 
 USE_DJANGO_JQUERY = True
 # Application definition
